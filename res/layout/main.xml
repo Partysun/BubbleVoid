@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/testAndroid.partysun"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#185118">
+    <org.anddev.andengine.opengl.view.RenderSurfaceView
+        android:id="@+id/xml_rendersurfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.admob.android.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:layout_weight="1"
+        app:backgroundColor="#000000"
+        app:primaryTextColor="#FFFFFF"
+        app:secondaryTextColor="#CCCCCC"
+        app:keywords="Android game"
+        app:refreshInterval="30" />
+</LinearLayout>
